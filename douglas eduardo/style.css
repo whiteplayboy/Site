@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.cabecalho{
+    background-color: #cb6ce6;
+    color:black;
+    display:flex;
+    justify-content:space-around;
+    padding: 24px 0;
+    font-size: 19px ;
+}
+
+.cabecalhoImagem{
+    width: 15%;
+}
+.cabecalhoListaItem{
+    display: inline-block;
+    margin: 0 16px;
+    padding: 24px 0;
+}   
+
+.sobreImagens{
+    text-align: center;
+    display: grid;
+    /*Vocês vão usar isso nas próximas aulas, tentei 
+    resolver sem dar "spoiler" mas não tinha como*/
+    grid-template-rows: 30% 30%;
+}
+
+.sobreImagem{
+    width: 85%;
+    /*Se for mexer no tamanho das imagens é aqui*/
+}
+
+.sobre{
+    background-color: #cb6ce6;
+    color:black;
+    display: flex;
+    padding: 24px 0 10px 0;
+    /*Aqui arruma o quão distantes os elementos estão*/
+    justify-content: center;
+    align-items: center;
+    /*Esses dois sãoo motivo de toda a gambiarra. Alguma 
+    hora passei isso no quadro e talvez "não deu certo" 
+    no de vocês, mas se ficar estranho me chama que a 
+    gente só muda o 'center' por algum outro, mas se 
+    tirar ele desconfigura tudo.*/
+}
+
+.sobreConteudo{
+    width: 45%;
+    padding: 0 50px;
+}
+
+.membroImagem{
+    width: 13%;
+}
+
+.membroIcone{
+    width: 2%;
+}
+
+.membroDiv{
+    text-align: center;
+}
+
+.membrosTitulo{
+    text-align: center;
+    padding: 30px;
+} 
+.membrosTodos{
+    display:grid;
+    grid-template-columns: 10% 20% 20% 20% 20%;
+}
